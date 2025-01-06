@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import Header from "./ui/Header";
 import Footer from "./ui/Footer";
+import Hero from "./ui/Hero";
 
 import "./globals.css";
 
@@ -32,6 +33,7 @@ export default function RootLayout({
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col h-screen`}
       >
         <Header />
+        <Hero />
         <main className="w-full lg:w-[1024px] mx-auto p-4 flex flex-grow">
           {children}
         </main>

@@ -10,9 +10,9 @@ const Header = () => {
       <div className="max-w-screen-lg mx-auto flex items-center justify-between p-4">
         <div className="flex items-center space-x-4">
           <Image
-            src="/images/Yelstar1.png"
+            src="/images/yelstar.webp"
             alt="persian Business Logo"
-            className="w-16 h-16 md:w-20 md:h-20 rounded-sm"
+            className="w-16 h-16 md:w-18 md:h-18 rounded-sm"
             width={96}
             height={96}
             priority
