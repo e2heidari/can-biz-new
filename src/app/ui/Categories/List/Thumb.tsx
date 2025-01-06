@@ -20,7 +20,7 @@ const BusinessCard: React.FC<BusinessCardProps> = ({
     <div>
       <a
         href={link}
-        className="block w-[300px] mx-auto p-4 bg-gray-800 rounded-2xl shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-200 text-white"
+        className="block w-[370px] mx-auto p-4 bg-gray-600 rounded-2xl shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-200 text-white"
       >
         <div className="grid grid-cols-[auto_1fr] gap-4 items-center">
           <Image

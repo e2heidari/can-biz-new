@@ -14,7 +14,7 @@ const renderBusinesses = (businesses: Business[]) => {
       link={`/business/${business.id}`}
       title={business.name}
       imageSrc={business.media?.images?.[0]?.thumbnailUrl}
-      leftValue={`followers: ${business.socialMedia.instagram.followers.toString()}`}
+      leftValue={`${business.socialMedia.instagram.followers.toString()} followers`}
       rightValue={business.category.name}
     />
   ));
