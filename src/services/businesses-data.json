@@ -524,27 +524,7 @@
     "serviceLocations": [],
     "tags": []
   },
-  {
-    "id": "elham.ghorbaniiiii",
-    "name": "Elham Ghorbani",
-    "socialMedia": {
-      "instagram": {
-        "id": "elham.ghorbaniiiii",
-        "name": "Elham Ghorbani",
-        "followers": 928,
-        "businessFollowersId": [],
-        "isVerified": false
-      }
-    },
-    "category": {
-      "id": "financial",
-      "name": "Financial"
-    },
-    "createdAt": "2025-01-11T03:16:15.498Z",
-    "updatedAt": "2025-01-11T03:16:15.498Z",
-    "serviceLocations": [],
-    "tags": []
-  },
+
   {
     "id": "alirezaa",
     "name": "Alireza Soleimani",
