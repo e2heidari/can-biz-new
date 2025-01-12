@@ -27,6 +27,7 @@ interface Instagram {
   posts?: number;
   businessFollowersId: string[];
   isVerified: boolean;
+  imageId: string;
 }
 
 export interface Category {
