@@ -37,7 +37,7 @@ const renderBusinesses = (businesses: Business[]) => {
         imageSrc={
           imageId
             ? `https://imagedelivery.net/DrRB7C-qS07kRovcPFO3IQ/${imageId}/public`
-            : "https://via.placeholder.com/150"
+            : undefined
         } // Construct URL or use placeholder
         leftValue={`${formatNumber(
           business.socialMedia.instagram.followers
