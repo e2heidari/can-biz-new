@@ -17,14 +17,13 @@ const BusinessCard: React.FC<BusinessCardProps> = ({
   link,
 }) => {
   return (
-    <div>
-      <a
-        href={link} // Link navigates to the provided Instagram URL
-        target="_blank" // Opens link in a new tab
-        rel="noopener noreferrer" // Security best practice for external links
-        className="block w-[370px] mx-auto p-4 bg-gray-600 rounded-2xl shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-200 text-white"
-      >
-        <div className="grid grid-cols-[auto_1fr] gap-4 items-center">
+    <div className="block w-[370px] mx-auto p-4 bg-gray-600 rounded-2xl shadow-md hover:shadow-lg hover:scale-105 transition-transform duration-200 text-white">
+      <div className="grid grid-cols-[auto_1fr] gap-4 items-center">
+        <a
+          href={link} // Link navigates to the provided Instagram URL
+          target="_blank" // Opens link in a new tab
+          rel="noopener noreferrer" // Security best practice for external links
+        >
           <Image
             src={imageSrc ?? "/icons/undefined.png"}
             alt={title}
@@ -32,15 +31,22 @@ const BusinessCard: React.FC<BusinessCardProps> = ({
             width={64}
             height={64}
           />
-          <div>
-            <h2 className="text-lg font-bold mb-2">{title}</h2>
-            <div className="grid grid-cols-2 text-sm text-gray-400">
-              <span>{leftValue}</span>
-              <span className="text-right">{rightValue}</span>
-            </div>
+        </a>
+        <div>
+          <a
+            href={link} // Link navigates to the provided Instagram URL
+            target="_blank" // Opens link in a new tab
+            rel="noopener noreferrer" // Security best practice for external links
+            className="text-lg font-bold"
+          >
+            {title}
+          </a>
+          <div className="grid grid-cols-2 text-sm text-gray-400">
+            <span>{leftValue}</span>
+            <span className="text-right">{rightValue}</span>
           </div>
         </div>
-      </a>
+      </div>
     </div>
   );
 };
