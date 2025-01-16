@@ -33,27 +33,27 @@
     "parentId": "artist"
   },
   {
-    "id": "fashion-artist",
+    "id": "fashion",
     "name": "Fashion",
     "parentId": "artist"
   },
   {
-    "id": "makeup-artist",
+    "id": "makeup",
     "name": "Makeup",
     "parentId": "artist"
   },
   {
-    "id": "music-dj-artist",
+    "id": "music-dj",
     "name": "Music & DJ",
     "parentId": "artist"
   },
   {
-    "id": "photographer-videographer-artist",
+    "id": "photographer-videographer",
     "name": "Photographer & Videographer",
     "parentId": "artist"
   },
   {
-    "id": "tattoo-artist",
+    "id": "tattoo",
     "name": "Tattoo",
     "parentId": "artist"
   },
@@ -66,27 +66,27 @@
     "name": "Blogger & Entertainment"
   },
   {
-    "id": "athlete-blogger",
+    "id": "athlete",
     "name": "Athlete",
     "parentId": "blogger-entertainment"
   },
   {
-    "id": "camping-cottage-blogger",
+    "id": "camping-cottage",
     "name": "Camping & Cottage",
     "parentId": "blogger-entertainment"
   },
   {
-    "id": "comedy-blogger",
+    "id": "comedy",
     "name": "Comedy",
     "parentId": "blogger-entertainment"
   },
   {
-    "id": "discover-vancouver-blogger",
+    "id": "discover-vancouver",
     "name": "Discover Vancouver",
     "parentId": "blogger-entertainment"
   },
   {
-    "id": "explore-canada-blogger",
+    "id": "explore-canada",
     "name": "Explore Canada",
     "parentId": "blogger-entertainment"
   },
@@ -106,22 +106,22 @@
     "parentId": "blogger-entertainment"
   },
   {
-    "id": "immigration-life-blogger",
+    "id": "immigration-life",
     "name": "Immigration Life",
     "parentId": "blogger-entertainment"
   },
   {
-    "id": "lifestyle-blogger",
+    "id": "lifestyle",
     "name": "Lifestyle",
     "parentId": "blogger-entertainment"
   },
   {
-    "id": "politic-blogger",
+    "id": "politic",
     "name": "Politic",
     "parentId": "blogger-entertainment"
   },
   {
-    "id": "traveler-blogger",
+    "id": "traveler",
     "name": "Traveler",
     "parentId": "blogger-entertainment"
   },
@@ -431,7 +431,7 @@
     "parentId": "renovation-construction"
   },
   {
-    "id": "home-Inspector",
+    "id": "home-inspector",
     "name": "Home Inspector",
     "parentId": "renovation-construction"
   },
@@ -488,17 +488,17 @@
     "parentId": "shopping"
   },
   {
-    "id": "carpet-furniture-shopping",
+    "id": "carpet-furniture",
     "name": "Carpet & Furniture",
     "parentId": "shopping"
   },
   {
-    "id": "clothing-shopping",
+    "id": "clothing",
     "name": "Clothing",
     "parentId": "shopping"
   },
   {
-    "id": "decoration-shopping",
+    "id": "decoration",
     "name": "Decoration",
     "parentId": "shopping"
   },
@@ -513,12 +513,12 @@
     "parentId": "shopping"
   },
   {
-    "id": "jewelry-shopping",
+    "id": "jewelry",
     "name": "Jewelry",
     "parentId": "shopping"
   },
   {
-    "id": "building-material-shopping",
+    "id": "building-material",
     "name": "Building Material",
     "parentId": "shopping"
   },
@@ -537,22 +537,22 @@
     "parentId": "teacher-trainer"
   },
   {
-    "id": "english-teacher",
+    "id": "english",
     "name": "English",
     "parentId": "teacher-trainer"
   },
   {
-    "id": "it-teacher",
+    "id": "it",
     "name": "IT",
     "parentId": "teacher-trainer"
   },
   {
-    "id": "makeup-beauty-teacher",
+    "id": "makeup-beauty",
     "name": "Makeup & Beauty",
     "parentId": "teacher-trainer"
   },
   {
-    "id": "music-teacher",
+    "id": "music",
     "name": "Music",
     "parentId": "teacher-trainer"
   },
